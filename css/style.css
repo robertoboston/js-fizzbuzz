@@ -8,7 +8,7 @@ body{
     background-color: #083b4c}
 
 .container{
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     margin-top: 200px;
     height: 800px;
@@ -23,14 +23,13 @@ h1{
 }
 
 .box{
-    background-color: aqua;
-    width: calc(100% / 9 - 10px);
-    height: 100px;
+    width: calc(100% / 7 - 20px);
+    height: 180px;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 10px;
 }
 
 .box-blue{
