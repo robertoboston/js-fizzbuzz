@@ -5,15 +5,15 @@ for(let i = 1; i <= 100; i++ ){
 
     if((i % 3==0) && (i % 5==0)){
         console.log('FizzBuzz')
-        element=`<div class="box">FizzBuzz</div>`
+        element=`<div class="box box-red">FizzBuzz</div>`
     }
-    if(i % 3== 0){
+    else if(i % 3== 0){
         console.log('Fizz')
         element=`<div class="box box-green">Fizz</div>`
     }
     else if (i % 5== 0){
         console.log('Buzz')
-        element=`<div class="box box-black">Buzz</div>`
+        element=`<div class="box box-black box-yellow">Buzz</div>`
     }
     else{
         console.log(i)
@@ -21,8 +21,6 @@ for(let i = 1; i <= 100; i++ ){
     }
 
     container.innerHTML += element
-    
-    
     
     
 }
